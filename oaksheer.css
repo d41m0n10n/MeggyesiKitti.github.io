@@ -1,0 +1,80 @@
+/* Globális stílusok */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Profilképek testreszabása */
+.profile-image {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Kártyák testreszabása */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Szöveg szekciók */
+section h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+section p {
+    color: #555;
+}
+
+/* Azonos méretű profilképek */
+.profile-image {
+    height: 300px; /* Fix magasság */
+    object-fit:contain;
+     /* Arányok megtartása, a kép vágása szükség esetén */
+    border-radius: 10px; /* Sima sarkok */
+}
+
+/* Kártyák közötti margó */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+/* Nagy, álló képek stílusa */
+.profile-image-large {
+    width: 150px; /* Szélesség */
+    height: 200px; /* Magasság */
+    object-fit: cover; /* A kép megtartja az arányait */
+    border-radius: 10px; /* Enyhén lekerekített sarkok */
+    border: 3px solid #f5f5f5; /* Kiemelés */
+}
+
+/* Idézet stílus */
+blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #f47920; /* Narancssárga vonal */
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* Hover effekt a kártyákra */
+.shadow-sm:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Tartalom igazítása a kártyákban */
+.d-flex {
+    align-items: flex-start; /* A szöveg a kép tetejével kezdődik */
+    gap: 15px; /* Távolság a kép és a szöveg között */
+}
