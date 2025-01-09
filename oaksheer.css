@@ -24,7 +24,7 @@ body {
 /* Szöveg szekciók */
 section h2 {
     font-weight: bold;
-    color: #333;
+    color: #edebe0;
 }
 
 section p {
@@ -48,6 +48,63 @@ section p {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
+
+#about {
+    background: linear-gradient(to bottom, #9D8E62, #4B4436);
+    color: #edebe0 ;
+    padding: 50px 0;
+    text-align: justify;
+}
+
+#about .text-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    color: #edebe0; 
+    max-width: 1400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#services {
+    background-color: #4B4436 !important;
+    color: #fff; 
+    padding: 50px 0;
+}
+#services .card {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #edebe0;     
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+#services .card p {
+    color: #edebe0;
+}
+
+#jobs {
+    background: linear-gradient(to bottom, #4B4436, #9D8E62);
+    padding: 50px 0;
+}
+
+#jobs .card {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #edebe0;     
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+#jobs .card p {
+    color: #edebe0;
+}
+
+#contact, #team {
+    background-color: #9D8E62;
+    padding: 50px 0;
+}
+
+
 /* Nagy, álló képek stílusa */
 .profile-image-large {
     width: 150px;
@@ -76,7 +133,7 @@ blockquote {
 /* Tartalom igazítása a kártyákban */
 .d-flex {
     align-items: flex-start; /* A szöveg a kép tetejével kezdődik */
-    gap: 15px; /* Távolság a kép és a szöveg között */
+    gap: 15px; 
 }
 .hero-section {
     background-image: url('img/background.jpg'); 
@@ -91,14 +148,14 @@ blockquote {
 }
 
 .btn-primary {
-    background-color: #000;
-    color: #fff;
-    border-color: #000;
+    background-color: #344932;
+    color: #edebe0;
+    border-color: #344932;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .btn-primary:hover {
-    background-color: #555; 
-    color: #fff; 
-    border-color: #555;
+    background-color: #e5d013; 
+    color: #edebe0; 
+    border-color: #e5d013;
 }
