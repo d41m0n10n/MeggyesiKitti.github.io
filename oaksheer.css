@@ -49,6 +49,29 @@ section p {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
+/* Navbar színének megváltoztatása */
+.navbar {
+    background-color: #4B4436;
+    color: #edebe0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+    color: #edebe0;     
+    font-weight: bold;
+    padding: 0 15px;
+    position: relative;
+    border-left: 1px solid #9D8E62; /* vonal */
+}
+
+.navbar .nav-link:hover {
+    color: #e5d013;    
+}
+
+.navbar-brand {
+    color: #edebe0
+}
+
 #about {
     background: linear-gradient(to bottom, #9D8E62, #4B4436);
     color: #edebe0 ;
